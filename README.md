@@ -23,6 +23,12 @@ You should also be warned that the file servers may see your IP address download
 
 #
 ## Setup
-The setup process for FileSmasher is very simple. Just simply clone the repository, make any desired changes to the config file, and then run main.py.
+The setup process for FileSmasher is very simple. Just simply clone the repository, install any dependencies (see requirements), make any desired changes to the config file, and then run main.py.
 
 For more information please see the wiki.
+
+### Requirements
+- [Python 3.9](https://www.python.org/downloads/)
+- [Python wget](https://pypi.org/project/wget/)
+
+For easy install of python dependencies, please see requirements.txt, this is updated the most, and automates the process, simply just type ```pip install -r requirements.txt```
